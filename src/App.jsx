@@ -39,18 +39,14 @@ function App() {
           }}
         ></ParallaxLayer> */}
 
-        <ParallaxLayer
-          sticky={{ start: 0.3, end: 20.5 }}
-          style={{ textAlign: "center" }}
-          factor={0.75}
-        >
+        <ParallaxLayer sticky={{ start: 0.2, end: 20.5 }} factor={0.75}>
           <img src={clam} />
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={0}
           speed={0.05}
-          onClick={() => ref.current.scrollTo(10)}
+          onClick={() => ref.current.scrollTo(19)}
         >
           <h1>We all know that Shalma...</h1>
         </ParallaxLayer>
