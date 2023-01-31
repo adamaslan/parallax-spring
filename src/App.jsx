@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import art from "../conceptart5.png";
-// import land from './land.png';
 import clam from "../clamgirls6.png";
 
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
@@ -31,7 +30,7 @@ function App() {
           speed={0.05}
           onClick={() => ref.current.scrollTo(19)}
         >
-          <h1>We all know that Shalma...</h1>
+          <h1>Shalma...awaiting...</h1>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -40,7 +39,9 @@ function App() {
           onClick={() => ref.current.scrollTo(0)}
         >
           <h1>
-            ...is a beautiful vibrant soul sparkling so brightly inspiring Adam{" "}
+            the combination of dual inner peace and pulsating feelings of love
+            echoing empathy reverberating into the most beautiful valleys and
+            the most inspiring mountains in the universe :{")"}
           </h1>
         </ParallaxLayer>
       </Parallax>
