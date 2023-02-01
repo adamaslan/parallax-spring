@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import art from "../conceptart5.png";
 import clam from "../clamgirls6.png";
-
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function App() {
@@ -34,7 +33,7 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={20}
+          offset={18}
           speed={0}
           onClick={() => ref.current.scrollTo(0)}
         >
